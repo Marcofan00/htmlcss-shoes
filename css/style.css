@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#primascarpa{
+    background-color: red;
+}
+
+.scarpe{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} 
+
+#secondascarpa{
+    background-color: green;
+}
+
+#terzascarpa{
+    background-color: yellow;
+}
+
+#terzascarpa h1{
+    color: green;
+}
+
+.ancore{
+    float: right;
+    margin-right: 30px;
+}
+
+.ancore a{
+    text-decoration: none;
+    color: black;
+    border:1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+
+
+
